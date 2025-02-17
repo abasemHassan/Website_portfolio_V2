@@ -1,6 +1,5 @@
 
-import { IoLogoGithub,IoLogoYoutube,IoLogoLinkedin,
-    IoLogoDribbble } from "react-icons/io5";
+import { IoLogoGithub,IoLogoYoutube,IoLogoLinkedin } from "react-icons/io5";
 function SideBar() {
   return (
     <div
@@ -12,7 +11,6 @@ function SideBar() {
             <IoLogoGithub className="cursor-pointer hover:scale-110 transition-all ease-in-out"/>
             <IoLogoYoutube className="cursor-pointer hover:scale-110 transition-all ease-in-out"/>
             <IoLogoLinkedin className="cursor-pointer hover:scale-110 transition-all ease-in-out"/>
-            <IoLogoDribbble className="cursor-pointer hover:scale-110 transition-all ease-in-out"/>
         </div>
     </div>
   )

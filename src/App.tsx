@@ -8,7 +8,7 @@ import Introduction from './Components/Introduction'
 
 import ProfilePic from './Components/ProfilePic'
 import ProgressBar from './Components/ProgressBar'
-import Services from './Components/Services'
+import Projects from './Components/Projects'
 
 import SideBar from './Components/SideBar'
 
@@ -25,7 +25,7 @@ function App() {
         <div className='col-span-2 p-5 mt-[90px]'>
             <Introduction/>
             <About/>
-            <Services/>
+            <Projects/>
          
         </div>
         <div className='hidden md:block'>
