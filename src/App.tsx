@@ -2,7 +2,7 @@
 
 import './App.css'
 import About from './Components/About'
-import Experiences from './Components/Experiences'
+import Experiences from './Components/WorkExperiences'
 
 import Header from './Components/Header'
 import Introduction from './Components/Introduction'
@@ -12,6 +12,7 @@ import ProgressBar from './Components/ProgressBar'
 import Projects from './Components/Projects'
 
 import SideBar from './Components/SideBar'
+import WorkExperiences from './Components/WorkExperiences'
 
 function App() {
  
@@ -26,8 +27,8 @@ function App() {
         <div className='col-span-2 p-5 mt-[90px]'>
             <Introduction/>
             <About/>
+            <WorkExperiences/>
             <Projects/>
-            <Experiences/>
          
         </div>
         <div className='hidden md:block'>

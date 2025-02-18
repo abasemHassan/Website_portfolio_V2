@@ -3,12 +3,5 @@ export default{
     ABOUT_DESC:"I am a permanent resident of the United States, with a degree in Computer Engineering from the University of Guelph. Proficient in programming and adept at solving complex technical challenges, I have a strong command of various programming languages and frameworks. My portfolio includes developing Rech-Tech Hub, a full-stack PERN application that integrates Python, Scrapy, and Crypto technologies, as well as building a web scraper leveraging BeautifulSoup and the Google Sheets API. Professionally, I have contributed to creating C# OPC UA clients for Bastian Solutions and provided IT support for over 2,000 employees at the City of Guelph. I am eager to leverage my academic background and hands-on experience to deliver innovative solutions and drive impactful results. ",
 
     PROJECTS:'PROJECTS',
-    FRONTED:'FRONTED DEV',
-    FRONTED_DESC:'Elevate your online presence with captivating user interfaces and seamless experiences',
-
-    BACKEND:'BACKEND DEV',
-    BACKEND_DESC:'Developing application backend and Server side development using various backend technology',
-
-    ONLINE:'ONLINE TEACHING',
-    ONLINE_DESC:'Teaching programming and coding on various platform like Youtube, Udemy etc. Free Course to the student'
+    WORKEXPERIENCES:'WORKEXPERIENCES'
 }
