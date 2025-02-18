@@ -2,6 +2,7 @@
 
 import './App.css'
 import About from './Components/About'
+import Experiences from './Components/Experiences'
 
 import Header from './Components/Header'
 import Introduction from './Components/Introduction'
@@ -26,6 +27,7 @@ function App() {
             <Introduction/>
             <About/>
             <Projects/>
+            <Experiences/>
          
         </div>
         <div className='hidden md:block'>

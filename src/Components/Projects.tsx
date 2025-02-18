@@ -1,5 +1,7 @@
 import React from "react";
 import Strings from '../Shared/Strings';
+
+
 interface Project {
   title: string;
   description: string;
@@ -19,16 +21,51 @@ const projects: Project[] = [
   {
     title: "Crypto Web Scraper",
     description: "A Python-based Crypto Web Scraper application is designed to fetch real-time cryptocurrency prices from CoinMarkCap. It offers seamless integration with Google Sheets for easy tracking of cryptocurrency prices and boasts robust error handling mechanisms for uninterrupted operation.",
-    technologies: ["Python", "BeautifulSoup", "Google Sheets API"],
+    technologies: ["Python", "BeautifulSoup", "Google Sheets API", "Cryptocurrency"],
     image: "Mining revenu sheet.png",
     link: "https://github.com/abasemHassan/Crypto-WebScraper",
   },
   {
     title: "SVG Image Viewer",
-    description: "A web-based image viewer allowing users to edit and save SVG images.",
-    technologies: ["JavaScript", "jQuery", "Node.js"],
-    image: "/svg-image-viewer.png",
-    link: "https://github.com/abasemHassan/svg-image-viewer",
+    description: "The SVG Image Viewer is a web app for viewing, editing, and saving SVG images. Built with HTML, CSS, and jQuery, it integrates Node.js and FFI-napi to enable seamless communication between C and JavaScript, ensuring efficient SVG processing and storage.",
+    technologies: ["JavaScript", "jQuery", "HTML","CSS","Node.js","FFi-napi"],
+    image: "/SVG.PNG",
+    link: "",
+  },
+  {
+    title: "PawsConnect",
+    description: "PawsConnect is a playful, dog-centric app for Gen Z, inspired by dating apps. Using CSS gradients and Bootstrap, it offers a vibrant UI where users swipe through dog profiles, match, and chat, connecting dog lovers in a fun, interactive community.",
+    technologies: ["HTML","CSS","Bootstrap"],
+    image: "/tin dog.png",
+    link: "https://github.com/abasemHassan/PawsConnect",
+  },
+  {
+    title: "Roll & Win: Dice Duel",
+    description: "Roll & Win: Dice Duel is an exciting online dice game for all ages! Inspired by classic tabletop games, it combines vibrant visuals with modern gameplay for endless fun. Challenge friends, roll the dice, and claim victory in this addictive experience!",
+    technologies: ["JavaScript", "HTML","CSS"],
+    image: "/DiceGame.png",
+    link: "https://github.com/abasemHassan/Dice_Game",
+  },
+  {
+    title: "Mondrian pantings",
+    description: "Piet Mondrian's abstract art, part of the De Stijl movement, features bold black grids, primary colors (red, blue, yellow), and white space. His iconic rectangular compositions use straight lines to create balance and harmony, defining modern abstraction.",
+    technologies: [ "HTML","CSS"],
+    image: "/Mondrain_Painting_2.png",
+    link: "https://github.com/abasemHassan/Mondrian_Panting_2",
+  },
+  {
+    title: "Website Portfolio V1",
+    description: "Amr Hassan's portfolio showcases his expertise in software development, featuring projects like an industrial communication client at Bastian Solutions, a Python-based crypto web scraper, and creative web applications such as 'PawsConnect' and 'Roll & Win: Dice Duel'.",
+    technologies: [ "JavaScript","Html","CSS"],
+    image: "/website portfolio.PNG",
+    link: "https://abasemhassan.github.io/PortWebsite/",
+  },
+  {
+    title: "Resume",
+    description: "Amr Hassan's resume showcases his expertise in software development, featuring projects like an industrial communication client at Bastian Solutions, a Python-based crypto web scraper, and creative web applications such as 'PawsConnect' and 'Roll & Win: Dice Duel'.",
+    technologies: ["Html","CSS"],
+    image: "/Resume.PNG",
+    link: "https://github.com/abasemHassan/HTML_Protfolio",
   },
 ];
 
