@@ -13,6 +13,7 @@ import Projects from './Components/Projects'
 
 import SideBar from './Components/SideBar'
 import WorkExperiences from './Components/WorkExperiences'
+import SkillsSection from './Components/Skills'
 
 function App() {
  
@@ -27,6 +28,7 @@ function App() {
         <div className='col-span-2 p-5 mt-[90px]'>
             <Introduction/>
             <About/>
+            <SkillsSection/>
             <WorkExperiences/>
             <Projects/>
          
