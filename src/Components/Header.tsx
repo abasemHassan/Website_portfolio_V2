@@ -1,63 +1,63 @@
-
+import React from "react";
 
 function Header() {
   const menu = [
     {
       id: 1,
       name: "HOME",
+      link: "#header",
     },
     {
       id: 2,
       name: "SKILLS",
+      link: "#skills",
     },
     {
       id: 3,
-      name: "PROJECTS",
+      name: "WORK EXPERIENCES",
+      link: "#work-experiences",
     },
     {
       id: 4,
+      name: "PROJECTS",
+      link: "#projects",
+    },
+    {
+      id: 5,
       name: "CONTACT",
+      link: "#contact",
     },
   ];
+
   return (
-    <div className="flex items-center fixed
-    w-full justify-between border-b-[1px] bg-white">
-      <div
-        className="w-[90px] h-[90px]
-        bg-black"
-      >
-        <img src="/logo.png" />
+    <div>
+      <section id="header" className="scroll-mt-24">
+      <div className="flex items-center fixed w-full justify-between border-b-[1px] bg-white z-50">
+        <div className="w-[90px] h-[90px] bg-black ">
+          <img src="/logo.png" alt="Logo" />
+        </div>
+        <div className="hidden md:flex gap-14 ">
+          {menu.map((item) => (
+            <a
+              key={item.id}
+              href={item.link}
+              className="cursor-pointer font-medium transition-all duration-[100ms] text-green-500"
+            >
+              <h2>{item.name}</h2>
+            </a>
+          ))}
+        </div>
+        <div className="w-[90px] h-[90px] bg-red-500 flex justify-center items-center">
+          <a href="PDF/_AmrHassanResumeUS.pdf">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="white">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M18 13v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5m7-4h4m0 0v4m0-4L10 14"/>
+            </svg>
+          </a>
+        </div>
       </div>
-      <div className="hidden md:flex gap-14">
-        {menu.map((item,index) => (
-          <div key={index}
-            className="cursor-pointer 
-                hover:underline font-medium"
-          >
-            <h2>{item.name}</h2>
-          </div>
-        ))}
-      </div>
-      <div
-        className="w-[90px] h-[90px]
-        bg-red-500 flex justify-center items-center"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-10 h-10 text-white"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-          />
-        </svg>
-      </div>
+      </section>
     </div>
+    
   );
 }
 

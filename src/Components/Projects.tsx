@@ -71,7 +71,7 @@ const projects: Project[] = [
 
 const Projects: React.FC = () => {
   return (
-    <section id="projects" className="py-16">
+    <section id="projects" className="scroll-mt-24 min-h-screen p-10 bg-white">
       <div className="container mx-auto px-6 lg:px-24">
       <div className='flex items-center'>
             <div className="w-[20px] h-[7px] bg-green-600 rounded-full"></div>
