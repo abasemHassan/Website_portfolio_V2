@@ -22,11 +22,6 @@ function Header() {
       name: "PROJECTS",
       link: "#projects",
     },
-    {
-      id: 5,
-      name: "CONTACT",
-      link: "#contact",
-    },
   ];
 
   return (

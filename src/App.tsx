@@ -14,6 +14,7 @@ import Projects from './Components/Projects'
 import SideBar from './Components/SideBar'
 import WorkExperiences from './Components/WorkExperiences'
 import SkillsSection from './Components/Skills'
+import ContactMe from './Components/Contact'
 
 function App() {
  
@@ -31,7 +32,6 @@ function App() {
             <SkillsSection/>
             <WorkExperiences/>
             <Projects/>
-         
         </div>
         <div className='hidden md:block'>
           <ProgressBar/>
