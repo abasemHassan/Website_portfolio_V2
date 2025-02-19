@@ -1,7 +1,7 @@
 import React from "react";
 import Strings from '../Shared/Strings';
 
-interface Experience {
+interface Experiences {
   title: string;
   company: string;
   companyLogo: string;
@@ -10,7 +10,7 @@ interface Experience {
   achievements: string[];
 }
 
-const experiences: Experience[] = [
+const experiences: Experiences[] = [
   {
     title: "Upgrade Specialist and PC Repair (Freelance)",
     company: "Self-Employed",
@@ -61,14 +61,14 @@ const experiences: Experience[] = [
   },
 ];
 
-const WorkExperience: React.FC = () => {
+const WorkExperiences: React.FC = () => {
   return (
-    <section className="p-6 max-w-4xl mx-auto">
+    <section id="work-experiences" className="scroll-mt-24 p-6 max-w-4xl mx-auto">
       {/* Title Section */}
       <div className='flex items-center'>
         <div className="w-[20px] h-[7px] bg-green-600 rounded-full"></div>
         <div className='w-full border-[1px] mx-4 mt-[-2px]'></div>
-        <h2 className='text-[24px] font-bold'>{Strings.WORKEXPERIENCES}</h2>
+        <h2 className='text-[24px] font-bold'><center>{Strings.WORKEXPERIENCES}</center></h2>
         <div className="w-full border-[1px] mt-[-2px] mx-4"></div>
         <div className="w-[20px] h-[7px] bg-green-600 rounded-full"></div>
       </div>
@@ -102,4 +102,4 @@ const WorkExperience: React.FC = () => {
   );
 };
 
-export default WorkExperience;
+export default WorkExperiences;
