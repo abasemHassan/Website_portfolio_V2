@@ -14,7 +14,7 @@ const experiences: Experiences[] = [
   {
     title: "Upgrade Specialist and PC Repair (Freelance)",
     company: "Self-Employed",
-    companyLogo: "/remote.png",
+    companyLogo: "remote.png",
     location: "Guelph, CA",
     duration: "Sept 2020 - Present",
     achievements: [
@@ -26,7 +26,7 @@ const experiences: Experiences[] = [
   {
     title: "Software Developer (Co-op)",
     company: "Bastian Solutions",
-    companyLogo: "/bastianSolutions.webp",
+    companyLogo: "bastianSolutions.webp",
     location: "Guelph, CA",
     duration: "Sept - Dec 2022",
     achievements: [
@@ -38,7 +38,7 @@ const experiences: Experiences[] = [
   {
     title: "IT Service Desk Support (Co-op)",
     company: "City of Guelph",
-    companyLogo: "/CityOfGuelph.webp",
+    companyLogo: "CityOfGuelph.webp",
     location: "Guelph, CA",
     duration: "May - Sept 2022",
     achievements: [
@@ -50,7 +50,7 @@ const experiences: Experiences[] = [
   {
     title: "IT Technician (Intern)",
     company: "University of Guelph",
-    companyLogo: "/UniversityOfGuelph.webp",
+    companyLogo: "UniversityOfGuelph.webp",
     location: "Guelph, CA",
     duration: "Jan - Sept 2021",
     achievements: [
