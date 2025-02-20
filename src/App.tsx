@@ -2,7 +2,6 @@
 
 import './App.css'
 import About from './Components/About'
-import Experiences from './Components/WorkExperiences'
 
 import Header from './Components/Header'
 import Introduction from './Components/Introduction'
@@ -14,7 +13,6 @@ import Projects from './Components/Projects'
 import SideBar from './Components/SideBar'
 import WorkExperiences from './Components/WorkExperiences'
 import SkillsSection from './Components/Skills'
-import ContactMe from './Components/Contact'
 
 function App() {
  

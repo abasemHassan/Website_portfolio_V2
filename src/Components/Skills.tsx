@@ -1,4 +1,10 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+
+// ✅ Define the prop types for ProgressBar
+interface ProgressBarProps {
+  name: string;
+  level: number;
+}
 
 const skills = {
   technical: [
@@ -21,7 +27,8 @@ const skills = {
   ],
 };
 
-const ProgressBar = ({ name, level }) => {
+// ✅ Use ProgressBarProps for proper typing
+const ProgressBar: React.FC<ProgressBarProps> = ({ name, level }) => {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
